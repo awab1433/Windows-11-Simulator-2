@@ -73,7 +73,7 @@ function changeWallpaper() {
     document.body.style.backgroundImage = `url(src/wallpaper/img${wIds[wi]}.webp)`;
 }
 setInterval(() => {
-    changeWallpaper();
+    
 }, 30e3);
 
 var PreImg = document.querySelector(".imagesToBePreloaded");
