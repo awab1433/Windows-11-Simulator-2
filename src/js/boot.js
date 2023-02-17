@@ -132,7 +132,7 @@ function passwordPhase() {
         })
         passwordField.addEventListener("keypress", event => {
             if (event.key == "Enter") {
-                if (passwordField.value != "12345") {
+                if (passwordField.value != "143314") {
                     console.log("login was not successful");
                     alert("Incorrect password");
                     // style this.....
